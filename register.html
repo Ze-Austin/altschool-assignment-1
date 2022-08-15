@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav_bar">
+      <a href="./index.html">About Me</a>
+      <a href="./contact.html">Contact</a>
+      <a href="./register.html">Register</a>
+      <a href="./login.html">Login</a>
+      <a href="./calc_table.html">Table Calculator</a>
+      <a href="./calc_flex.html">Flex Calculator</a>
+    </nav>
+    <header>
+      <h1>Create An Account</h1>
+    </header>
+    <form method="post" class="registration">
+      <div class="user_input">
+        <label for="first_name">First Name</label>
+        <input
+          type="text"
+          name="first_name"
+          placeholder="Your First Name Here"
+          required
+        />
+      </div>
+      <div class="user_input">
+        <label for="last_name">Last Name</label>
+        <input
+          type="text"
+          name="last_name"
+          placeholder="Your Last Name Here"
+          required
+        />
+      </div>
+      <div class="user_input">
+        <label for="phone_number">Phone</label>
+        <input
+          type="tel"
+          name="phone_number"
+          placeholder="Your Phone Number"
+          required
+        />
+      </div>
+      <div class="user_input">
+        <label for="Gender">Gender</label>
+        <select name="Gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="nonbinary">Nonbinary</option>
+          <option selected>Rather Not Say</option>
+        </select>
+      </div>
+      <div class="user_input">
+        <label for="country">Country</label>
+        <input type="text" name="country" placeholder="Country of Residence" />
+      </div>
+      <div class="user_input">
+        <label for="state">State or Province</label>
+        <input type="text" name="state" placeholder="State of Residence" />
+      </div>
+      <div class="user_input">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          name="username"
+          placeholder="Choose a Username"
+          required
+        />
+      </div>
+      <div class="user_input">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Choose a Password"
+          required
+        />
+      </div>
+      <div class="user_input">
+        <label for="password">Confirm Password</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Confirm Your Password"
+          required
+        />
+      </div>
+      <div class="user_input">
+        <button type="submit">Register</button>
+      </div>
+    </form>
+    <footer>
+      <p>
+        <a href="https://twitter.com/Ze_Austin" class="twitter" target="_blank">@Ze_Austin</a>,
+        AltSchool Africa
+      </p>
+    </footer>
+  </body>
+</html>
